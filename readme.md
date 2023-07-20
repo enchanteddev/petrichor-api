@@ -6,6 +6,7 @@ This is made by me (Kaushik). Contact me if doubts.
 ## API #1 User-Auth
 ### User Registration
 - A **POST** API, that gets email and password, and registers the user.
+- API Usage: ```base.url/api/register```
 - Return Value:
   ```JSON
   {
@@ -14,8 +15,25 @@ This is made by me (Kaushik). Contact me if doubts.
   }
   ```
 - Google Login Integration
+### User Login
+- A **POST** API, that gets email and password, and logs the user in.
+- API Usage: ```base.url/api/login```
+- Return Value:
+  ```JSON
+  {
+    "loggedin": "true or false",
+    "message": "'Success' or 'Not registered with this email' or 'Misc'",
+    "user": {
+        "name": "Kaushik Rawat",
+        "email": "example@example.com",
+        "phone": 1234567890,
+        "CA": ""
+      }
+  }
+  ```
 ### User data
 - A **GET** API, returns user data
+- API Usage: ```base.url/api/user?email=email@email.com```
 - Response Value:
   ```JS
   {
