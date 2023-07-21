@@ -69,6 +69,7 @@ This is made by me (Kaushik). Contact me if doubts.
     ]
   }
   ```
+- **Note:** This API is just capable for things with a single participant, and not teams. Further spec will be released in future. For now assume there are only individual competitions
 ## API #3 Merchandise
 - A **GET** API to show merch data.
 - API Usage: ```base.url/api/merch?id=all```
