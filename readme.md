@@ -3,6 +3,8 @@ This is made by me (Kaushik). Contact me if doubts.
 
 **DON'T PROCEED FURTHER IF YOU ARE NOT SURE WHAT AN API IS. GOOGLE IT FIRST**
 
+**REFER [THIS FOR THE TIMELINE](timeline.md)**
+
 ## API #1 User-Auth
 ### User Registration
 - A **POST** API, that gets email and password, and registers the user.
