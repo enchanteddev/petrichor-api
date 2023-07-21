@@ -3,7 +3,7 @@ This is made by me (Kaushik). Contact me if doubts.
 
 **DON'T PROCEED FURTHER IF YOU ARE NOT SURE WHAT AN API IS. GOOGLE IT FIRST**
 
-**REFER [THIS FOR THE TIMELINE](timeline.md)**
+**REFER THIS FOR [TIMELINE and OTHER GUIDELINES](timeline.md)**
 
 ## API #1 User-Auth
 ### User Registration
